@@ -1,13 +1,21 @@
 body{
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
     background-image: radial-gradient(#e0e1dd,#778da9, #415a77);
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
-#Self Introduction{
-    background-color: rgba(255, 255, 255, 0.8);
-    width: 33%;
-    min-width:0;
+#SelfIntroduction{
+    width: 33vh;
+    max-height:33vh;
+}
+#Selfintroduction h1{
+    text-align: center;
+}
+#SelfIntroduction p{
+    white-space: Normal;
+    Word-wrap: Normal;
+    overflow-wrap: break-word;
 }
